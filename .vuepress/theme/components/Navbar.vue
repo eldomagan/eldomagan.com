@@ -1,5 +1,5 @@
 <template>
-  <nav class="py-4 md:py-8 px-4 bg-transparent w-full">
+  <nav class="py-4 md:py-8 px-4 bg-transparent w-full" :class="{ 'absolute ping': !isBlog }">
     <div class="container mx-auto flex items-center justify-between flex-wrap">
       <a href="/" class="flex items-center flex-no-shrink no-underline text-grey-darker text-3xl">
         @eldomagan
@@ -20,8 +20,12 @@
 <script>
 export default {
   computed: {
-    navLinks () {
+    isBlog () {
       return this.$page.path.includes('/blog/')
+    },
+
+    navLinks () {
+      return this.isBlog
         ? this.$site.themeConfig.blogNav
         : this.$site.themeConfig.homeNav
     }
