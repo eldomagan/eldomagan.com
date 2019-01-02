@@ -1,0 +1,26 @@
+{
+  "name": "eldomagan.com",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "keywords": [],
+  "author": "Eldo Magan <magan.eldo@gmail.com> (https://eldomagan.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
+    "@vuepress/plugin-register-components": "^1.0.0-alpha.0",
+    "autoprefixer": "^9.4.3",
+    "node-sass": "^4.11.0",
+    "particles.js": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^0.7.3",
+    "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
+}
