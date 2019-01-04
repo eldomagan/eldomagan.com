@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{279:function(e,t,n){"use strict";n.r(t);var s=n(1),o=Object(s.a)({},function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"content"},[t("home-hero")],1)},[],!1,null,null,null);o.options.__file="readme.md";t.default=o.exports}}]);
